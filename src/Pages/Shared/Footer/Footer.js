@@ -53,23 +53,26 @@ const Footer = () => {
                             </div>
 
                             <div>
-                                <h3 className="text-gray-200 uppercase dark:text-white">Blog</h3>
-                                <a href="#" className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline">React</a>
-                                <a href="#" className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline">Prototype inheritance</a>
-                                <a href="#" className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline">Unit testing</a>
+                                <h3 className="text-gray-200 uppercase dark:text-white">Educational Sites</h3>
+                                <a href="https://10minuteschool.com/?utm_source=google&utm_medium=cpc&utm_campaign=na_branddefence_search_rsa_maxconversions(tcpa)_conversion&utm_content=txt_na_na&utm_term=1p_detailed_demo+inmkt+aff_all_18-54&campaign=google-ads&type=search&gclid=Cj0KCQjwjt-oBhDKARIsABVRB0yaGWNijzEirMhKzfCSgrqtUz8GxMuZj0xNSuP1CtZPoC2wZ8WE9vUaAmgwEALw_wcB" className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline" target="_blank" rel="noopener noreferrer">10 Minute School</a>
+
+                                <a href="https://shikho.com/" className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline" target="_blank" rel="noopener noreferrer">Shikho</a>
+
+                                <a href="https://shikhbeshobai.com/" className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline" target="_blank" rel="noopener noreferrer">Shikhbe Shobai</a>
+
                             </div>
 
                             <div>
-                                <h3 className="text-gray-200 uppercase dark:text-white">Products</h3>
-                                <a href="#" className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline">Cricket bats</a>
-                                <a href="#" className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline">Cricket balls</a>
-                                <a href="#" className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline">Cricket helmets</a>
+                                <h3 className="text-gray-200 uppercase dark:text-white">Available</h3>
+                                <a href="#" className=" block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline">Student Management</a>
+                                <a href="#" className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline">Attendance Management</a>
+                                <a href="#" className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline">Result Management</a>
                             </div>
 
                             <div>
                                 <h3 className="text-gray-200 uppercase dark:text-white">Contact</h3>
-                                <span className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline">+8801304979278</span>
-                                <span className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline">smzubayer9004@email.com</span>
+                                <span className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline">+8801816552934</span>
+                                <span className="block mt-2 text-sm text-gray-200 dark:text-gray-400 hover:underline">asthainsight10@gmail.com</span>
                             </div>
                         </div>
                     </div>

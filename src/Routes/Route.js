@@ -3,11 +3,12 @@ import Login from "../Pages/Login/Login";
 import MainAdmin from "../Pages/MainAdminPage/MainAdmin";
 import Register from "../Pages/Register/Register";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import PrivateRoute from "./PrivateRoute";
 
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <MainAdmin></MainAdmin>,
+        element: <PrivateRoute><MainAdmin></MainAdmin></PrivateRoute>,
         errorElement: <ErrorPage></ErrorPage>
     },
     {

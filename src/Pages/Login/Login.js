@@ -35,7 +35,7 @@ const LogIn = () => {
             });
     }, [currentUser]);
 
-    console.log(currentUser, "email")
+
 
     const handleToEmail = (event) => {
         // Assuming you have an input field with the name "email"
@@ -185,13 +185,7 @@ const LogIn = () => {
                     </button>
                 </div>
 
-                <p className='px-6 text-sm text-center text-gray-400'>
-                    Don't have an account yet?{' '}
-                    <Link to={`/register`} className='hover:underline text-gray-600'>
-                        Sign up
-                    </Link>
-                    .
-                </p>
+
             </div>
         </div>
     )

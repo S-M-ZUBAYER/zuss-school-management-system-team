@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
-import img from "../../../Assets/Images/School.jpg"
+import img from "../../../Assets/Images/Astha.jpg"
 import { AuthContext } from '../../../context/UserContext';
 import { toast } from 'react-hot-toast';
 import { useEffect } from 'react';
@@ -55,7 +55,7 @@ const Navbar = () => {
             <div className="container flex justify-between h-16">
                 <div className="flex items-center">
                     <Link rel="noopener noreferrer" to={`/`} aria-label="Back to homepage" className="flex items-center p-2">
-                        <img className="h-10 w-10 rounded-full" src={img} alt="school logo" />
+                        <img className="h-10 w-10 rounded-full" src={img} alt="company logo" />
                     </Link>
 
                     <p className="flex justify-start">
@@ -65,6 +65,7 @@ const Navbar = () => {
 
 
                 <div className="items-center flex-shrink-0 flex md:mr-10">
+                    <Link to={`/register`} className="mr-5">Create Admin Account</Link>
                     {
                         user?.email ?
                             <Link to={`/login`} onClick={handleToLogOut}>Log Out</Link> :

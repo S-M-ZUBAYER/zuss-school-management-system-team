@@ -143,11 +143,7 @@ const Register = () => {
                         // Sending the POST request to https://zuss-school-management-system-server-site.vercel.app/api/schoolUser/
                         axios.post('https://zuss-school-management-system-server-site.vercel.app/api/schoolUser/admin/add', schoolUser)
                             .then(response => {
-                                console.log(response.data);
-                                localStorage.setItem('schoolUser', JSON.stringify(response.data))
-                                // Handle the response if needed
                                 toast.success('Registration Completed successfully...');
-                                navigate('/');
                                 setLoading(false);
                             })
                             .catch(err => {
