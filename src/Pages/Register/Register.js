@@ -235,25 +235,20 @@ const Register = () => {
 
                         <div>
                             <label htmlFor='schoolId' className='block mb-2 text-sm text-left'>
-                                School Code
+                                SC
                             </label>
-                            <select
+                            <input
+                                type='text'
+                                id='schoolId'
                                 name='schoolId'
-                                id='mySelectId'
-                                required
                                 value={currentSchoolCode}
                                 onChange={(e) => setCurrentSchoolCode(e.target.value)}
+                                placeholder='Enter SC'
                                 className='w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-green-500 bg-gray-200 text-gray-900'
-                                data-temp-mail-org='0'
-                            >
-                                <option value=''>Select a School Code</option>
-                                {schools.map((school) => (
-                                    <option key={school.name} value={school.schoolCode}>
-                                        {school.schoolCode}
-                                    </option>
-                                ))}
-                            </select>
+                                required
+                            />
                         </div>
+
 
 
 
